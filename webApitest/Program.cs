@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Text;
@@ -10,6 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 Console.WriteLine("Database ensured to be created hollo.");
 Console.WriteLine("Database ensured to be created hollo.");
 
+void sum()
+{
+
+}
 
 // Add services to the container.
 builder.Services.AddControllers();
