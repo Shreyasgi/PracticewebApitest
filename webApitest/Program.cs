@@ -15,6 +15,10 @@ void sum()
 {
 
 }
+void sum2()
+{
+
+}
 
 // Add services to the container.
 builder.Services.AddControllers();
