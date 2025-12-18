@@ -7,6 +7,7 @@ using webApitest.Data;
 using webApitest.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+Console.WriteLine("Database ensured to be created.");
 
 // Add services to the container.
 builder.Services.AddControllers();
