@@ -8,13 +8,6 @@ using webApitest.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 Console.WriteLine("Database ensured to be created hollo.");
-Console.WriteLine("Database ensured to be created hollo.");
-Console.WriteLine("Database ensured to be created hollo.");
-Console.WriteLine("Database ensured to be created hollo.");
-Console.WriteLine("Database ensured to be created hollo.");
-Console.WriteLine("Database ensured to be created hollo.");
-Console.WriteLine("Database ensured to be created hollo.");
-Console.WriteLine("Database ensured to be created hollo.");
 
 
 // Add services to the container.
