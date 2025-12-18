@@ -10,7 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 Console.WriteLine("Database ensured to be created hollo.");
 Console.WriteLine("Database ensured to be created hollo.");
 
-
+void sum3()
+{
+    Console.WriteLine("Hello from sum3");
+}
 // Add services to the container.
 builder.Services.AddControllers();
 
